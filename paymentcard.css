@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+background-image: linear-gradient(#e98b8b, #cf827b, #7a4b3f);
+}
+
+.order-summary {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    transition: 1.3s;
+}
+.order-summary:hover{
+    width: 450px;
+    height: 630px;
+}
+.illustration {
+    width: 77%;
+    height: auto;
+}
+.content {
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #414141;
+    margin: 10px 0 20px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f08e8e;
+    box-shadow: rgba(0, 0, 0, 1);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 16px 0;
+    transition: 0.3s ease-in;
+}
+.plan:hover{
+    text-decoration: dotted;
+    background-color: #9b5151;
+    transform: scale(1.0);
+}
+
+.plan-details {
+    display: flex;
+    align-items: center;
+}
+.plan-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.plan-price {
+    font-size: 0.8rem;
+    color: #414141;
+}
+i{
+    position: relative ;
+    padding: 6px;
+    bottom: 22px;
+    background-color: #8b8181;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.change {
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+.change:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.payment-btn {
+    display: inline-block;
+    background-color: #804949;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: #1a1a1a;
+    transition: transform .2s;
+    margin: 0 auto;      
+}
+.payment-btn:hover {
+    background-color: #a55e5e;
+    transform: scale(1.2);
+    transition: 0.2s;
+        }
+
+.payment-btn:hover {
+    background-color: #a55e5e;
+}
+
+.cancel-order {
+    display: block;
+    font-size: 0.8rem;
+    color: #363636;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.cancel-order:hover{
+    color: #a55e5e ;
+    text-decoration: underline;
+    transition: 0.4s;
+}
